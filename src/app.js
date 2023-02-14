@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const handlebars = require('express-handlebars');
 const Post = require('./models/Post');
 const path = require('path');
-
+app.use(express.static('public'));
 
 // Config Template Engine;
 app.engine('handlebars', handlebars.engine({ defaultLayout: 'main' }));
