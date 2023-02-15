@@ -12,8 +12,93 @@
 }
 
 .center{
-    transform: translateY(50%);
     text-align: center;
     margin: 0 auto;
+}
+#center {
+    background-color: #ccc;
+    padding: 1em;
+}
 
+.post {
+    margin: 0.5em;
+
+}
+.post h1{
+    font-size: 2em;
+    padding: 0.5em;
+    color: purple;
+}
+
+.conteudo {
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: black;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 1em;
+}
+
+.postdb {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkblue;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.postdb h3{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.postdb p {
+    width: 100%;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 1em;
+    font-size: 1em;
+    padding: 0.5em;
+    color:darkred;
+}
+
+.conteudo > form > button{
+    background-color: purple;
+    padding: 0.5em;
+    margin: 0.2em;
+    outline: none;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.conteudo > a > button{
+    background-color: purple;
+    padding: 0.5em;
+    margin: 0.2em;
+    outline: none;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.buttons button{
+    background-color: purple;
+    padding: 0.5em;
+    margin: 0.2em;
+    outline: none;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font: bold;
+    text-transform: uppercase;
+    cursor: pointer;
 }
