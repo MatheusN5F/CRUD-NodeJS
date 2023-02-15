@@ -4,12 +4,12 @@ const bodyParser = require('body-parser');
 const handlebars = require('express-handlebars');
 const Post = require('./models/Post');
 const path = require('path');
-app.use(express.static('public'));
 
 // Config Template Engine;
 app.engine('handlebars', handlebars.engine({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 app.set('views', path.join(__dirname, 'views'));
+app.use(express.static('src/public'));
 
 // Config Body Parser;
 app.use(bodyParser.urlencoded({ extended: false }));
